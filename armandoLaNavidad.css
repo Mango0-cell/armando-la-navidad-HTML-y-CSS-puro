@@ -752,3 +752,103 @@ footer img {
     cursor: pointer;
     margin-left: 10px;
 }
+
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 180px;
+        padding-bottom: 120px;
+    }
+
+    header {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    header img {
+        width: 150px;
+        padding: 5px;
+    }
+
+    header .text {
+        height: auto;
+        padding: 10px;
+    }
+
+    .welcomeScreen img {
+        width: 80%;
+    }
+
+    .cards {
+        height: auto;
+        gap: 5px;
+        margin-top: 30px;
+    }
+
+    .cards1 {
+        gap: 5px;
+    }
+
+    /* Modal adjustments */
+    .msg {
+        height: auto;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .msg .modal-content {
+        flex-direction: column;
+    }
+
+    .msg .modal-image {
+        height: 250px;
+    }
+
+    .msg .modal-info {
+        width: 100%;
+        padding: 15px;
+    }
+
+    /* Final Modal adjustments */
+    .msg-final {
+        height: auto;
+        max-height: 90vh;
+    }
+
+    .modal-content-final {
+        flex-direction: column;
+    }
+
+    .modal-image-final {
+        height: 250px;
+    }
+
+    .final-tape {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .final-tape p {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    footer p.p1 {
+        display: none; /* Hide summary text on very small screens to save space or style differently */
+    }
+
+    .timer-badge {
+        margin-top: 10px;
+    }
+}
